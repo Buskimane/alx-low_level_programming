@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
- *  * main - texto
- *   *
- *    * Return: text in printf
- *     */
+ * main - texto
+ *
+ * Return: text in printf
+ */
 
 int main(void)
 {
