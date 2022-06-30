@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <string.h
 /**
- *  * main - code to put a message
- *   * Return: Always 0
- *    */
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
