@@ -1,22 +1,17 @@
 #include "main.h"
-
 /**
- * main - function to print
+ * main - Entry point
  *
- * Return: 0
+ * Return: always 0(Success)
  */
 int main(void)
 {
+	char str[] = "_putchar";
+	int ch;
 
- _putchar('_');
- _putchar('p');
- _putchar('u');
- _putchar('t');
- _putchar('c');
- _putchar('h');
- _putchar('a');
- _putchar('r');
- _putchar('\n');
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
 
- return (0);
+	return (0);
 }
