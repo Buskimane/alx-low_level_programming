@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
  * main - entry point
@@ -8,14 +8,11 @@
 
 int main(void)
 {
-	char l[] = ALX;
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(l[i]);
-	}
-	_putchar('\n');
-
-	return (0);
+	char *sh = "_putchar";
+	while (*sh)
+{		
+_putchar(*sh);
+sh++;		
+_putchar('\n');
+return (0);
 }
