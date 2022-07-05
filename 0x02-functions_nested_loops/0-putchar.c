@@ -1,4 +1,4 @@
-#include "main.c"
+#include <main.c>
 
 /**
  * main - entry point
