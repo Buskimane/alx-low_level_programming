@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char l[] = {"ALX"};
+	char l[] = ALX;
 	int i;
 
 	for (i = 0; i < 9; i++)
