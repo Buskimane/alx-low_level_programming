@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char l[] = {"Holberton"};
+	char l[] = {"ALX"};
 	int i;
 
 	for (i = 0; i < 9; i++)
