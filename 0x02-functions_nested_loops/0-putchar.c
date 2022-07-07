@@ -1,17 +1,20 @@
 #include "main.h"
+
 /**
- *main - Entry point
+ *main - Print _putchar
  *
- *Return: always 0(Success)
+ *Return: Always 0(Success)
  */
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
-
-	for (ch = 0; ch < 8; ++ch)
-	_putchar(str[ch]);
+	_putchar(95);
+	_putchar(112);
+	_putchar(117);
+	_putchar(116);
+	_putchar(99);
+	_putchar(104);
+	_putchar(97);
+	_putchar(114);
 	_putchar('\n');
-
 	return (0);
 }
