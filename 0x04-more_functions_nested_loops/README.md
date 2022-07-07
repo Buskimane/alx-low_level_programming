@@ -1,4 +1,3 @@
-0x04. C - More functions, more nested loops
 Resources
 Nested while loops
 C - Functions
