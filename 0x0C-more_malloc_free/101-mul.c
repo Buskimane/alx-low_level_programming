@@ -50,28 +50,28 @@ r[a] = 0;
 for (l1--; l1 >= 0; l1--)
 {
 if (!_isdigit(s1[l1]))
-																	{
-																	free(r);
+{
+free(r);
 printf("Error\n"), exit(98);
 }
 
 a = s1[l1] - '0';
-																	c = 0;
+c = 0;
 
-																	for (l2 = _strlen(s2) - 1; l2 >= 0; l2--)
-																	{
-																	if (!_isdigit(s2[l2]))
-																	{
-																	free(r);
-																	printf("Error\n"), exit(98);
-																	}
-																	b = s2[l2] - '0';
+for (l2 = _strlen(s2) - 1; l2 >= 0; l2--)
+{
+if (!_isdigit(s2[l2]))
+{
+free(r);
+printf("Error\n"), exit(98);
+}
+b = s2[l2] - '0';
 
-																	c += r[l1 + l2 + 1] + (a * b);
-																	r[l1 + l2 + 1] = c % 10;
+c += r[l1 + l2 + 1] + (a * b);
+r[l1 + l2 + 1] = c % 10;
 
-																	c /= 10;
-																	}
+c /= 10;
+}
 if (c)
 r[l1 + l2 + 1] += c;
 }
