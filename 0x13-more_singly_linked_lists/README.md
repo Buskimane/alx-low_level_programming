@@ -10,6 +10,9 @@ Resources
 
 -   [Google](https://alx-intranet.hbtn.io/rltoken/2-7-eVuWcPutbXf6YZZgiA "Google")
 -   [Youtube](https://alx-intranet.hbtn.io/rltoken/wVWwl86ufLMsXeAigpxllg "Youtube")
+- Read about [data structures](https://www.notion.so/C-Programming-f13cdb9661db464f8ea326c5a2654e8e) first.
+- [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s) 2008 UNSW Lecture.
+- [Linked Lists](https://www.youtube.com/playlist?list=PLIsXzR_wZY-xQSwyG_PAQHJtyo4o9WWXd) Youtube Playlist I created.
 
 Learning Objectives
 -------------------
@@ -892,4 +895,41 @@ julien@ubuntu:~/0x13. More singly linked lists$
 
 -   GitHub repository: `alx-low_level_programming`
 -   Directory: `0x13-more_singly_linked_lists`
--   File: `10-delete_nodeint.c`
+-   File: `10-delete_nodeint.c
+
+<h2>Advanced</h2>
+<h2>11. Reverse list</h2>
+<p>Write a function that reverses a listint_t linked list.
+	<li>Prototype: listint_t *reverse_listint(listint_t **head);</li>
+	<li>Returns: a pointer to the first node of the reversed list</li>
+	<li>You are not allowed to use more than 1 loop.</li>
+	<li>You are not allowed to use malloc, free or arrays</li>
+	<li>You can only declare a maximum of two variables in your function</li>
+
+</p>
+<h2>12. Print (safe version)</h2>
+<p>Write a function that prints a listint_t linked list.
+	<li>Prototype: size_t print_listint_safe(const listint_t *head);</li>
+	<li>Returns: the number of nodes in the list</li>
+	<li>This function can print lists with a loop</li>
+	<li>You should go through the list only once</li>
+	<li>If the function fails, exit the program with status 98</li>
+	<li>Output format: see example</li>
+	
+</p>
+<h2>13. Free (safe version)</h2>
+<p>Write a function that frees a listint_t list.
+	<li>Prototype: size_t free_listint_safe(listint_t **h);</li>
+	<li>This function can free lists with a loop</li>
+	<li>You should go though the list only once</li>
+	<li>Returns: the size of the list that was free’d</li>
+	<li>The function sets the head to NULL</li>
+</p>
+<h2>14. Find the loop</h2>
+<p>Write a function that finds the loop in a linked list.
+	<li>Prototype: listint_t *find_listint_loop(listint_t *head);</li>
+	<li>Returns: The address of the node where the loop starts, or NULL if there is no loop</li>
+	<li>You are not allowed to use malloc, free or arrays</li>
+	<li>You can only declare a maximum of two variables in your function</li>
+
+</p>`
