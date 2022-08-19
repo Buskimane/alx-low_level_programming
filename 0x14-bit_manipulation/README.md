@@ -6,6 +6,16 @@
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/232/bitwise.PNG)
 
+## Description
+
+Under this Directory Tasks will help explore various uses of the following operators
+* & : Bitwise And Operator
+* | : Bitwise Or Operator
+* ~ : Bitwise NOT Operator
+* ^ : Bitwise ExOr Operator
+* >> : Bitwise Right Shift Operator
+* << : Bitwise Left Shift Operator
+
 Resources
 ---------
 
