@@ -32,3 +32,5 @@ All of the following folders are projects done during the studies:
 [`0x10-variadic_functions`](https://github.com/Buskimane/alx-low_level_programming/tree/master/0x10-variadic_functions)  | It aims to learn about variadic functions in C language |
 [`0x12-singly_linked_lists`](https://github.com/Buskimane/alx-low_level_programming/tree/master/0x12-singly_linked_lists) | It aims to learn about linked lists in C language |
 [`0x13-more_singly_linked_lists`](https://github.com/Buskimane/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists) | It aims to learn more about linked lists in C language |
+[`0x14-bit_manipulation`](https://github.com/Buskimane/alx-low_level_programming/tree/master/0x14-bit_manipulation) | It aims to learn the act of algorithmically manipulating bits or other pieces of data shorter than a word |
+[`0x15-file_io`](https://github.com/Buskimane/alx-low_level_programming/tree/master/0x15-file_io) | It aims at learning file management in C |
